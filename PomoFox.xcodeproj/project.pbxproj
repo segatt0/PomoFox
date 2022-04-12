@@ -16,6 +16,7 @@
 		22FFD4AC2804E0410076DA6A /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FFD4AB2804E0410076DA6A /* SplashView.swift */; };
 		22FFD4AE2804E5770076DA6A /* SplashUIState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FFD4AD2804E5760076DA6A /* SplashUIState.swift */; };
 		22FFD4B02804E5CC0076DA6A /* SplashViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FFD4AF2804E5CC0076DA6A /* SplashViewModel.swift */; };
+		22FFD4B62804F2CE0076DA6A /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FFD4B52804F2CE0076DA6A /* SignInView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		22FFD4AB2804E0410076DA6A /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
 		22FFD4AD2804E5760076DA6A /* SplashUIState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashUIState.swift; sourceTree = "<group>"; };
 		22FFD4AF2804E5CC0076DA6A /* SplashViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewModel.swift; sourceTree = "<group>"; };
+		22FFD4B52804F2CE0076DA6A /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 		22FFD47C2804DE230076DA6A /* PomoFox */ = {
 			isa = PBXGroup;
 			children = (
+				22FFD4B12804F2110076DA6A /* SignIn */,
 				22FFD4A72804DFB50076DA6A /* Splash */,
 				22FFD47D2804DE230076DA6A /* PomoFoxApp.swift */,
 				22FFD4812804DE290076DA6A /* Assets.xcassets */,
@@ -161,6 +164,38 @@
 			isa = PBXGroup;
 			children = (
 				22FFD4AF2804E5CC0076DA6A /* SplashViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		22FFD4B12804F2110076DA6A /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				22FFD4B42804F22D0076DA6A /* ViewModel */,
+				22FFD4B32804F2260076DA6A /* Model */,
+				22FFD4B22804F21B0076DA6A /* View */,
+			);
+			path = SignIn;
+			sourceTree = "<group>";
+		};
+		22FFD4B22804F21B0076DA6A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				22FFD4B52804F2CE0076DA6A /* SignInView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		22FFD4B32804F2260076DA6A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		22FFD4B42804F22D0076DA6A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -299,6 +334,7 @@
 				22FFD4AE2804E5770076DA6A /* SplashUIState.swift in Sources */,
 				22FFD47E2804DE230076DA6A /* PomoFoxApp.swift in Sources */,
 				22FFD4AC2804E0410076DA6A /* SplashView.swift in Sources */,
+				22FFD4B62804F2CE0076DA6A /* SignInView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
