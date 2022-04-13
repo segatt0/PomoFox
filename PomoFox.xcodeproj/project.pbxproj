@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		228AED8A280731A600ABBBA5 /* SignInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228AED89280731A600ABBBA5 /* SignInViewModel.swift */; };
+		228AED8C2807325100ABBBA5 /* SignInUIS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228AED8B2807325100ABBBA5 /* SignInUIS.swift */; };
+		22D55C9D28073FC100A292ED /* SplashViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D55C9C28073FC100A292ED /* SplashViewRouter.swift */; };
 		22FFD47E2804DE230076DA6A /* PomoFoxApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FFD47D2804DE230076DA6A /* PomoFoxApp.swift */; };
 		22FFD4822804DE290076DA6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22FFD4812804DE290076DA6A /* Assets.xcassets */; };
 		22FFD4852804DE290076DA6A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22FFD4842804DE290076DA6A /* Preview Assets.xcassets */; };
@@ -37,6 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		228AED89280731A600ABBBA5 /* SignInViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewModel.swift; sourceTree = "<group>"; };
+		228AED8B2807325100ABBBA5 /* SignInUIS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInUIS.swift; sourceTree = "<group>"; };
+		22D55C9C28073FC100A292ED /* SplashViewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewRouter.swift; sourceTree = "<group>"; };
 		22FFD47A2804DE230076DA6A /* PomoFox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PomoFox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22FFD47D2804DE230076DA6A /* PomoFoxApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PomoFoxApp.swift; sourceTree = "<group>"; };
 		22FFD4812804DE290076DA6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -164,6 +170,7 @@
 			isa = PBXGroup;
 			children = (
 				22FFD4AF2804E5CC0076DA6A /* SplashViewModel.swift */,
+				22D55C9C28073FC100A292ED /* SplashViewRouter.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -189,6 +196,7 @@
 		22FFD4B32804F2260076DA6A /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				228AED8B2807325100ABBBA5 /* SignInUIS.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -196,6 +204,7 @@
 		22FFD4B42804F22D0076DA6A /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				228AED89280731A600ABBBA5 /* SignInViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -330,8 +339,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22D55C9D28073FC100A292ED /* SplashViewRouter.swift in Sources */,
 				22FFD4B02804E5CC0076DA6A /* SplashViewModel.swift in Sources */,
+				228AED8C2807325100ABBBA5 /* SignInUIS.swift in Sources */,
 				22FFD4AE2804E5770076DA6A /* SplashUIState.swift in Sources */,
+				228AED8A280731A600ABBBA5 /* SignInViewModel.swift in Sources */,
 				22FFD47E2804DE230076DA6A /* PomoFoxApp.swift in Sources */,
 				22FFD4AC2804E0410076DA6A /* SplashView.swift in Sources */,
 				22FFD4B62804F2CE0076DA6A /* SignInView.swift in Sources */,

@@ -24,7 +24,7 @@ struct SplashView: View {
                     
                 }
             case .goToSignScreen:
-                Text("Tela de Login")
+                viewModel.signInView()
             }
         }.onAppear(perform: {
             viewModel.onAppear()})
