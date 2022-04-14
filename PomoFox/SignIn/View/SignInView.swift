@@ -15,43 +15,45 @@ struct SignInView: View {
     
     
     var body: some View {
-        VStack(alignment: .center, spacing: 20) {
-        VStack(alignment: .center) {
+        
+        VStack(alignment: .center, spacing: 30) {
             
             Image("Logo")
                 .resizable()
                 .scaledToFit()
-                .padding(.horizontal, 110)
-            
-//                .background(Color .black)
-            
+                .padding(.top)
+                .frame(width: 250, height: 250)
             Spacer()
-                .frame(height: 50)
-            VStack(alignment: .leading) {
+                .frame(height: 10)
+            VStack(spacing: -10) {
+            VStack(alignment: .leading, spacing: -20) {
+                
                 
                 Text("Email")
                     .padding()
-               
-                emailField
-               
                 
-                    //.padding()
-                    //.padding()
+                emailField
+                
+                    .padding(.bottom, 1)
             }
-            VStack(alignment: .leading) {
-                Text("Senha")
+            
+            VStack(alignment: .leading, spacing: -20) {
+                Text("Password")
                     .padding()
                 passwordField
+                    .padding(.bottom, 1)
+                
+            }
             }
             loginButton
-//            Text("Login")
-//                .font(Font.system(size: 50).bold())
-                
-                
+            //            Text("Login")
+            //                .font(Font.system(size: 50).bold())
+            
+            registerButton
+            
+            
             
         }
-    
-    }
     }
 }
 
@@ -101,6 +103,14 @@ extension SignInView {
     }
 }
 
+extension SignInView {
+    
+    var registerButton: some View {
+        Button("Se cadastre") {
+            
+        }
+    }
+}
 
 
 
